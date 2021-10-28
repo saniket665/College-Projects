@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(rgb(26, 238, 72), rgb(17, 236, 252));
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.projects {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: center;
+    justify-items: center;
+    margin: 0px 50px;
+}
+
+.project {
+    background: rgb(228 228 228);
+    background: linear-gradient(rgb(26, 238, 72), rgb(17, 236, 252));;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+}
+
+.project-img {
+    width: 250px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #080505;
+} 
+
+.btn {
+    background: #784feb;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: transparent;
+}
+
